@@ -8,7 +8,7 @@ function App() {
         <p>Test React ARIA</p>
         <p>Item</p>
       </Header>
-      <Button style={{backgroundColor:"white"}} onPress={()=>console.log('button clicked')}>Click here</Button>
+      <Button style={{backgroundColor:"red"}} onPress={()=>console.log('button clicked')}>Click here</Button>
     </div>
   );
 }
