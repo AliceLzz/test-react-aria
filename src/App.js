@@ -5,10 +5,10 @@ function App() {
   return (
     <div className="App">
       <Header className="primary">
-        <p>Test Web Dev Class</p>
-        <p>Test Item</p>
+        <p>Test React ARIA</p>
+        <p>Item</p>
       </Header>
-      <Button style={{backgroundColor:"red"}} onPress={()=>console.log('button clicked')}>Signup</Button>
+      <Button style={{backgroundColor:"white"}} onPress={()=>console.log('button clicked')}>Click here</Button>
     </div>
   );
 }
